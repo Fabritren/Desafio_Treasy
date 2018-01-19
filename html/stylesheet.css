@@ -1,0 +1,172 @@
+
+
+
+/* Regular Button Definitions Generated Online */
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #d3ffcf;
+    border-radius: 20px;
+    background: #b2e05e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b2e05e), to(#5b823c));
+    background: -moz-linear-gradient(top, #b2e05e, #5b823c);
+    background: linear-gradient(to bottom, #b2e05e, #5b823c);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal normal 21px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #d6ff71;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d6ff71), to(#6d9c48));
+    background: -moz-linear-gradient(top, #d6ff71, #6d9c48);
+    background: linear-gradient(to bottom, #d6ff71, #6d9c48);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #6b8638;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6b8638), to(#5b823c));
+    background: -moz-linear-gradient(top, #6b8638, #5b823c);
+    background: linear-gradient(to bottom, #6b8638, #5b823c);
+}
+
+	/* Background Color Variable */  
+element {
+--main-bg-color: #f9f9f9;
+}
+
+/* Green Text  */
+p.green {
+	font-size:26px;
+	color: #3e5418;
+} 
+	
+	/* Text Color  */
+p, h1, h2, h3, h4, h5,h6, pre{
+	color:black;
+}
+
+
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}	
+
+	/* Div Definitions */
+header, nav, article, selection, footer, aside{
+	display:block;
+}
+
+	/* Centering website  */
+
+.container{
+	background: var(--main-bg-color);
+	width:1000px;
+	margin:0px auto; /* top and bot 0, left and right auto */
+}
+
+.clear{
+	clear:both;
+}
+
+.top_nav{
+	text-align:center;
+	font-size: 45px;
+	float:left;
+	width:1000px;
+	margin-bottom: 10px;
+}
+
+
+.result_box{
+	width:35%;
+	float: left;
+	/* margin:0px auto; top and bot 0, left and right auto */
+}
+
+.result_chart{
+	border: 0px solid #89ab4c;
+	width: 65%; 
+	height: 300px;
+	float: left;	/* margin:0px auto; top and bot 0, left and right auto */
+}
+
+canvas{display: none;}
+
+	/* Top Div Centering, (Contains Only Home and Search buttons)  */
+ul{ 
+	padding: 20px;
+	text-align:center;
+	width:100%;
+}
+
+li{
+	display:inline;
+	padding:15px;
+}
+
+
+	/*  Float aside and Main section */
+.right_side{
+	float:left;
+	width:1000px;
+}
+
+
+.right_side article{
+	border: 2px solid #89ab4c;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+/* Make footer clear floated elements */
+
+.page_footer{
+	clear:both;
+	text-align:center;
+}
+
+	/*  Default Hyperlink Color */
+a{
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 5px; 
+	border: 2px solid #89ab4c;
+	color:#89ab4c;
+}
+
+input[type=number], input[type=submit]{
+    background-color: white;
+	width:60px;
+	height:22px;
+	font-size: 18px;
+	text-align: center;
+    color: black;
+}
+
+table, th, td {
+   border: 2px solid #89ab4c;
+}
+
+table{ /*  Default Hyperlink Color #89ab4c;*/
+    width: 90%;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	border-collapse: collapse;
+}
+tr {
+	line-height: 22px;
+}
+
+label{
+	font-size: 18px;
+}
+
+
